@@ -70,5 +70,3 @@ theme: light
 deploy:
   type: git
   repo: https://github.com/daichangxin/daichangxin.github.com.git
-
-duoshuo_shortname: ÄãÕ¾µãµÄshort_name
