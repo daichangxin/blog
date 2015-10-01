@@ -1,0 +1,2 @@
+# greatxin.com
+blog resource
