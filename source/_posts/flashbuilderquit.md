@@ -1,4 +1,4 @@
-title: flashbuilderquit
+title: FlashBuilder闪退
 date: 2015-10-01 13:50:35
 tags:
 category: flash
