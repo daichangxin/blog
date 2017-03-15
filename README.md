@@ -1,2 +1,2 @@
-# greatxin.com
+# blog.greatxin.com
 blog resource
