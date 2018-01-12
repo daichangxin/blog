@@ -1,20 +1,6 @@
 <% if (page.comments){ %>
 	<section id="comment">
-		<div id="container"></div>
-		<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-		<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-		<script>
-			var gitment = new Gitment({
-				id: location.href,
-				owner: 'daichangxin',
-				repo: 'https://github.com/daichangxin/blogComment.git',
-				oauth: {
-					client_id: '3c613ac986da967c05f0',
-					client_secret: '12927219cdfdd95586475fdef0689de78aa7ac47',
-				},
-			})
-			gitment.render('container')
-		</script>
+		
 
 	</section>
 	<% } %>
