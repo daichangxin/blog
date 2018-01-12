@@ -1,21 +1,20 @@
 <% if (page.comments){ %>
-<section id="comment">
-  <!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="<%= page.path %>" data-title="<%= page.title %>" data-url="<%= page.permalink %>"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"greatxin"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- 多说公共JS代码 end -->
+	<section id="comment">
+		<div id="container"></div>
+		<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+		<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+		<script>
+			var gitment = new Gitment({
+				id: location.href,
+				owner: 'daichangxin',
+				repo: 'https://github.com/daichangxin/blogComment.git',
+				oauth: {
+					client_id: '3c613ac986da967c05f0',
+					client_secret: '12927219cdfdd95586475fdef0689de78aa7ac47',
+				},
+			})
+			gitment.render('container')
+		</script>
 
-</section>
-<% } %>
+	</section>
+	<% } %>
