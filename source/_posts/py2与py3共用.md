@@ -1,7 +1,6 @@
 title: py2与py3共用
 date: 2018-01-17 21:08:22
-tags:
-category: python
+tags: ["python"]
 ---
 
 ### 编译

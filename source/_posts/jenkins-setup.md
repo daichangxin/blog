@@ -1,7 +1,6 @@
 title: jenkins配置
 date: 2019-02-20 15:35:00
-tags: jenkins
-category: jenkins
+tags: ["jenkins"]
 ---
 
 ## 启动

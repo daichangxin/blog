@@ -1,7 +1,6 @@
 title: git将本地代码提交到远程仓库
 date: 2017-03-15 10:55:53
-tags:
-category: git
+tags: ["git"]
 ---
 ##### 本地初始化：
 ```

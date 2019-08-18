@@ -1,7 +1,6 @@
 title: FlashBuilder闪退
 date: 2015-10-01 13:50:35
-tags:
-category: flash
+tags: ["flash"]
 ---
 今天遇到打开FlashBuilder秒退, 网上找到了解决办法:
 进入工作目录下

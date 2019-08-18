@@ -1,5 +1,6 @@
 title: {{ title }}
 date: {{ date }}
 tags: 
-category: 
+type: "tags"
+layout: "tags"
 ---
