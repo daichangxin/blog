@@ -43,7 +43,7 @@ java -jar jenkins.war --enable-future-java --httpPort=8080 --prefix=/jenkins
 ## Git使用的问题
 1. 默认git只拉取一个仓库到本job的工作目录中，如果要拉取多个git:
 pipeline的job使用`dir('目录名')`实现
-自由风格job使用`Git Plugin`自带的分目录功能:`Additional Behaviours`->`Check out to a sub-directory`即可
+~~自由风格job使用`Git Plugin`自带的分目录功能:`Additional Behaviours`->`Check out to a sub-directory`即可~~
 
 2. 提示‘tell me who you are’
 执行脚本中加入：
@@ -54,6 +54,12 @@ git config --local user.name "你的用户名"
 
 3. 账号和密码方式操作https路径的git仓库，会出现卡住而且没有任何报错提示问题
 在全局密钥中增加账号密码的密钥，并使用该密钥操作git仓库。其次**仓库的路径要加上用户名**，比如: `https://daichangxin@gitlab.xiangwushuo.com/game/gameBuild.git`
+
+4. 执行时间过长，大于10分钟导致git clone失败
+修改jenkins安装目录中的jenkins.xml文件，在`arguments`中增加参数并**重新启动Jenkins**：
+```
+-Dorg.jenkinsci.plugins.gitclient.Git.timeOut=60
+```
 
 ## 其他
 1. 调用其他job传参
@@ -66,7 +72,7 @@ build job: 'gameBuild', parameters: [string(name: 'copyFrom', value: copyFrom), 
 ```
 2. bat执行参数过长或有空格
 路径过长或有空格需要用引号括起来，而且路径要用反斜杠`\\`不能用`/`，否则就会提示参数不正确，因为bat的参数是用斜杠来标识参数名的
-复制文件到目标目录中，如果不想被提示说目标是不是目录，则在目标路径后方加上`\\`，如：
+复制文件到目标目录中，如果不想被提示说目标是不是目录，则在目标路径后方加上`\\`，源目录路径末尾不能加反斜杠，否则会提示参数不正确，如：
 ```
 chcp 65001 & xcopy "source\\%game_id%\\bin-release\\web\\%client_version%" "%JENKINS_HOME%\\workspace\\gameBuild\\gamebox\\%build_type%\\%game_id%\\" /s /h /d /y
 ```
