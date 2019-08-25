@@ -143,6 +143,8 @@ Aug 25th 19
 2019 escaped 2019
 2019-08-25T22:05:10+08:00
 ```
+### 源码
+[laya-love-node_modules](https://github.com/daichangxin/laya-love-node_modules)
 
 ### 备注
 有的类库还会有低版本不兼容的问题，解决无非就是找各种roleup插件来解决，比如[rollup-plugin-babel](https://github.com/rollup/rollup-plugin-babel);
