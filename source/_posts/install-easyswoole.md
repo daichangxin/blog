@@ -14,7 +14,7 @@ rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 //查看php源
 yum list php*
 //开始安装
-yum install php71w php71w-opoache php71--cli  php71w-devel
+yum install php71w php71w-opoache php71--cli  php71w-devel php71w-mysqli
 //查看php版本
 php -v
 ```
