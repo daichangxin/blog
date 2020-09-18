@@ -1,6 +1,6 @@
 title: VSCode 调试 Laya
 date: 2019-10-01 15:58:37
-tags: ['layabox', 'vscode']
+tags: ['Layabox', 'VSCode']
 ---
 
 ### 安装插件

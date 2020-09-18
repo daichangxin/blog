@@ -1,6 +1,6 @@
 title: 初始化mysql
 date: 2019-09-07 21:01:21
-tags: ['mysql']
+tags: ['Mysql']
 ---
 CentOS初始化mysql的一些必备的流程记录。
 ### 启动

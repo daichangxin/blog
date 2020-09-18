@@ -1,6 +1,6 @@
 title: pyinstaller简单打包
 date: 2015-10-01 13:38:12
-tags: ["python"]
+tags: ["Python"]
 ---
 下载[pyInstaller](http://sourceforge.net/projects/pyinstaller/) , 解压后不需要执行安装就可以用
 下载[pywin32](http://sourceforge.net/projects/pywin32/) , 这个是导出exe依赖的库
