@@ -7,7 +7,7 @@ tags: ['layabox', 'vscode']
 https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 
 或 在VSCode插件中搜索：`Debugger for Chrome`
-
+<!-- more -->
 ### 使用 Launch 方式启动 Chrome 调试网页
 配置 `.vscode/launch.json` 内容：
 ```

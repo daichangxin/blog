@@ -18,7 +18,7 @@ win:
 set JENKINS_HOME=C:\jenkins
 java -jar jenkins.war --enable-future-java --httpPort=8080 --prefix=/jenkins
 ```
-
+<!-- more -->
 ## 账号管理
 1. 默认是admin登录，登录密码在`/secrets/initialAdminPassword`中，不要尝试创建用户名为`admin`或`administrator`的账号了
 2. 在`系统管理`->`全局安全设置`中启用jenkins用户注册，并勾选`注册用户可做任何事`

@@ -22,7 +22,7 @@ python3则是在代码开头加入：
 ```
 #! python3
 ```
-
+<!-- more -->
 ### 使用pip
 
 python2命令：

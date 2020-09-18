@@ -16,7 +16,7 @@ Laya也一样，需要再index.js中把类库引用进去，然后再把.d.ts文
 对于很多nodejs开发者来说，就非常需要node_modules包来管理了。庆幸的是Laya其实没有对编译做各种绑定和预处理，我们完全可以修改下编译脚本就能实现引用打包node_modules类库了。
 
 这里使用<code>Moment.js</code>来举个🌰。
-
+<!-- more -->
 ### 添加类库
 ```
 npm init

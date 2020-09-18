@@ -18,6 +18,7 @@ yum install php71w php71w-opoache php71--cli  php71w-devel php71w-mysqli
 //查看php版本
 php -v
 ```
+<!-- more -->
 ### 安装swoole
 swoole是php的一个扩展，也是easyswoole必须的依赖，需要拉取代码本地编译。
 ```

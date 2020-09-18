@@ -11,7 +11,7 @@ service mysqld start
 ```
 service mysqld status
 ```
-
+<!-- more -->
 ### 登录
 找到初始密码
 ```

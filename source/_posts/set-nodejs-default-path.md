@@ -12,7 +12,7 @@ mkdir ~/.npm-global
 ```
 npm config set prefix '~/.npm-global'
 ```
-### 添加PATH到`~/.profile`文件中，<u><b>如果没有这个文件，就创建一个</b></u>，然后添加这行：
+### 添加PATH到`~/.profile`文件中，<b>如果没有这个文件，就创建一个</b>，然后添加这行：
 ```
 export PATH=~/.npm-global/bin:$PATH
 ```
