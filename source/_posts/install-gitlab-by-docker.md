@@ -25,7 +25,7 @@ docker container run \
 docker ps -a
 ```
 等启动完成，gitlab就创建好了。
-
+<!-- more -->
 ## 修改配置
 配置修改一律通过`~/data/gitlab/gitlab.rb`这个文件来修改，即镜像中的`/etc/gitlab/gitlab.rb`文件。
 

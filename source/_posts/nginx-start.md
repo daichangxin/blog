@@ -23,6 +23,7 @@ yum install nginx
 cat /etc/redhat-release
 // 输出: CentOS Linux release 7.7.1908 (Core)
 ```
+<!-- more -->
 于是在/etc/yum.repos.d/nginx.repo下创建文件nginx.repo，内容为：
 ```
 [nginx]
