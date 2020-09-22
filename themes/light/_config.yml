@@ -34,3 +34,6 @@ facebook:
   comment_count: 5
   comment_width: 840
   comment_colorscheme: light
+
+# baidu
+baidu_analytics: true
