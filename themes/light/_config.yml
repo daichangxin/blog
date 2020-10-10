@@ -1,6 +1,8 @@
 menu:
   Home: /
   Archives: /archives
+  Smalltalk: /smalltalk
+  About: /about
 
 widgets:
 - search
