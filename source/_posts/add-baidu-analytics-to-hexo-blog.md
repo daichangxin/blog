@@ -3,17 +3,17 @@ date: 2020-09-22 09:38:07
 tags: ["Hexo"]
 ---
 原理是在Hexo的header代码中，添加js统计脚本。
-## 百度统计注册账号，获取统计脚本
+### 1、百度统计注册账号，获取统计脚本
 https://tongji.baidu.com/
 
-## Hexo主题配置修改
+### 2、Hexo主题配置修改
 修改主题配置文件：`themes/{你使用的主题}/_config.yml`，添加一个开关配置：
 ```
 # baidu
 baidu_analytics: true
 ```
 
-## 新建模版
+### 3、新建模版
 新建 `themes/{你使用的主题}/layout/_partial/baidu_analytics.ejs` ：
 ```
 <% if (theme.baidu_analytics) { %>

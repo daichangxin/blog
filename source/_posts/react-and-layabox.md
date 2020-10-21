@@ -2,7 +2,7 @@ title: React与Layabox混合开发实现
 date: 2020-09-21 20:08:59
 tags: ["React", "Layabox"]
 ---
-## 图片加载的问题
+### 1、图片加载的问题
 使用import的地址，但是无法解决批量加载的问题，参考： https://blog.pawgame.com/2020/09/21/react-dynamic-assets-import 
 ```
 npm i -D @types/webpack-env
@@ -15,7 +15,7 @@ Laya.URL.customFormat = (url: string) => {
 };
 ```
 
-## canvas鼠标滑动问题
+### 2、canvas鼠标滑动问题
 修改laya.core.js，注释部分代码：
 ```
 canvas.addEventListener("touchstart", function (e) {
@@ -46,7 +46,8 @@ canvas.addEventListener("touchmove", function (e) {
 }, true);
 ```
 
-鼠标点击错位问题，修改laya.core.js，增加getBoundingClientRect检测：
+### 3、鼠标点击错位问题
+修改laya.core.js，增加getBoundingClientRect检测：
 ```
 initEvent(e, nativeEvent = null) {
     var _this = this;
