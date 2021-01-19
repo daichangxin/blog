@@ -3,7 +3,7 @@ date: 2020-09-21 19:50:07
 tags: ["React"]
 ---
 React在导入资源的时候，只能指定资源的路径，如果要实现动态的路径，比如本地的任务icon列表，需要读取icon的地址是：
-```
+```html
 <img alt="" src={`../assets/images/taskIcons/task_${taskID}.png`}></img>
 ```
 这样的写法会在webpack打包后，变成固定的字符串，而不会被webpack的资源hash处理，这就导致编译后资源地址读取错误。

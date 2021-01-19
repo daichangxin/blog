@@ -8,8 +8,8 @@ tags: ['CocosCreator']
 之前打开过 Unity 软件，一直不太明白 `getChild` 与 `getComponent` 到底有什么区别，万一有多个重名的组件怎么办呢？
 做个 Demo 一步步分析，在 Canvas 中设置了一个 ProgressBar，名字也叫 ProgressBar，我想获取到这个 ProgressBar：
 
-```
-const bar = this.node.getComponenet(ProgressBar);
+```typescript
+const bar = this.node.getComponent(ProgressBar);
 console.log(bar); // output: null
 ```
 
