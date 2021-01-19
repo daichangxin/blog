@@ -1,6 +1,6 @@
 title: 使用Docker安装Gitlab
 date: 2020-09-18 11:38:46
-tags: ["Docker", "Gitlab"]
+tags: ["Docker", "Git"]
 ---
 ## 拉取镜像
 ```

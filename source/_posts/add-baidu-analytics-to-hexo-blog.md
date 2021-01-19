@@ -1,6 +1,6 @@
 title: 给Hexo添加百度统计
 date: 2020-09-22 09:38:07
-tags: ["Hexo"]
+tags: ["Blog"]
 ---
 原理是在Hexo的header代码中，添加js统计脚本。
 ### 1、百度统计注册账号，获取统计脚本

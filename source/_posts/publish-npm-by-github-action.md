@@ -1,6 +1,6 @@
 title: 使用Github Action自动发布NPM包
 date: 2020-09-18 14:07:55
-tags: ["Github", "NPM", "Nodejs"]
+tags: ["Git", "Nodejs"]
 ---
 ## 准备NPM的部署token
 官网 https://www.npmjs.com/ 注册账号，然后在`Auth Tokens`下创建`Access Tokens`，这个token是给`Gitlab Action`使用来实现NPM包发布用的。

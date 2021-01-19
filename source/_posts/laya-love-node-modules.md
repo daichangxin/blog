@@ -2,7 +2,7 @@ title: layabox使用node_modules
 type: tags
 layout: tags
 date: 2019-08-25 11:29:05
-tags: ['Nodejs', 'Layabox']
+tags: ['Layabox']
 ---
 用习惯了egret、layabox这类游戏引擎的人，很少有关注node_modules类库，或者用到的时候不得不用各种曲折的方法，比如在egret中如果要引用一个类库，必须把这个类库放到指定的目录中去，如果默认没有.min.js文件，还要拷贝一个命名成.min.js文件，再然后把对应的type文件放到目中去，最终的结构就像这样：
 ```
